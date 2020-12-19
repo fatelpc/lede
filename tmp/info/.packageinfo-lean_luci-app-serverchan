@@ -1,0 +1,21 @@
+Source-Makefile: package/lean/luci-app-serverchan/Makefile
+
+Package: luci-app-serverchan
+Submenu: 3. Applications
+Version: 1.80-8
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +iputils-arping +curl
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for serverchan
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI support for serverchan
+
+@@
+
+

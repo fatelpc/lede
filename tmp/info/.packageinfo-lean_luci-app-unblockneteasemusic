@@ -1,0 +1,22 @@
+Source-Makefile: package/lean/luci-app-unblockneteasemusic/Makefile
+Build-Depends: lua/host luci-base/host 
+
+Package: luci-app-unblockneteasemusic
+Submenu: 3. Applications
+Version: 2.8-8
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +bash +busybox +coreutils +coreutils-nohup +curl +dnsmasq-full +ipset +libopenssl +node
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI support for UnblockNeteaseMusic
+Maintainer: [CTCGFW]Project-OpenWrt
+Source: 
+Type: ipkg
+Description: LuCI support for UnblockNeteaseMusic
+[CTCGFW]Project-OpenWrt
+@@
+
+
