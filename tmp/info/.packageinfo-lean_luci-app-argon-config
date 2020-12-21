@@ -1,0 +1,21 @@
+Source-Makefile: package/lean/luci-app-argon-config/Makefile
+
+Package: luci-app-argon-config
+Submenu: 3. Applications
+Version: 0.8-beta
+Depends: +libc +USE_GLIBC:librt +USE_GLIBC:libpthread +luci-compat
+Conflicts: 
+Menu-Depends: 
+Provides: 
+Section: luci
+Category: LuCI
+Repository: base
+Title: LuCI page for Argon Config
+Maintainer: 
+Source: 
+Type: ipkg
+Description: LuCI page for Argon Config
+
+@@
+
+
